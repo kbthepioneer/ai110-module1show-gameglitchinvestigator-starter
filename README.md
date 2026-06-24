@@ -39,19 +39,16 @@ A number guessing game where the player tries to guess a randomly generated secr
 8. User clicks "New Game" to reset and play again with a new secret number
 
 ## 🧪 Test Results
-
+```
 python -m pytest tests/
-
 ============================= test session starts ==============================
-
 platform win32 -- Python 3.14.5, pytest-9.0.3, pluggy-1.6.0
-
 rootdir: C:\Users\kbayona\ai110-module1show-gameglitchinvestigator-starter
-
 collected 21 items
-tests\test_game_logic.py .....................                            [100%]
 
+tests\test_game_logic.py .....................                            [100%]
 ============================== 21 passed in 0.25s ==============================
+```
 
 ## 🚀 Stretch Features
 - Completed Challenge 1: Advanced Edge-Case Testing — added 7 additional pytest cases covering negative numbers, very large numbers, None input, and boundary values (1 and 100)
